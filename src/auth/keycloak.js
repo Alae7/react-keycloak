@@ -2,9 +2,9 @@
 import Keycloak from 'keycloak-js';
 
 const keycloak = new Keycloak({
-    url: 'http://localhost:8080',
-    realm: 'auth-service',
-    clientId: 'react-client'
+    url: 'https://192.168.1.101:8443',
+    realm: 'AdaptiveIt',
+    clientId: 'adaptive-dev-client'
 });
 
 export default keycloak;
