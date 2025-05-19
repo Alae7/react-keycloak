@@ -5,7 +5,7 @@ import KeycloakProviderWrapper from "./auth/KeycloakProvider.jsx";
 
 createRoot(document.getElementById('root')).render(
 
-      <KeycloakProviderWrapper>
+    <KeycloakProviderWrapper>
         <App />
-      </KeycloakProviderWrapper>
+    </KeycloakProviderWrapper>
 )
